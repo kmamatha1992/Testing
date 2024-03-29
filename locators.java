@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 public class Locators {
 	public static By Loginid = By.xpath("//a[@class='ico-login']");
 	public static By WelcomeMessage = By.xpath("//h1");
-	public static By Emailid = By.xpath("//input[@id='Email']");
+	public static By Emailid_personal = By.xpath("//input[@id='Email']");
 	public static By Password = By.xpath("//input[@id='Password']");
 	public static By Loginbutton = By.xpath("//input[@type='submit' and @value='Log in']");
 	public static By UseraccountID = By.xpath("(//a[@class='account' ])[1]");
