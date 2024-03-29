@@ -3,7 +3,7 @@ package tricentis;
 import org.openqa.selenium.By;
 
 public class Locators {
-	public static By Login = By.xpath("//a[@class='ico-login']");
+	public static By Loginid = By.xpath("//a[@class='ico-login']");
 	public static By WelcomeMessage = By.xpath("//h1");
 	public static By Emailid = By.xpath("//input[@id='Email']");
 	public static By Password = By.xpath("//input[@id='Password']");
